@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 60px; 
+    transition: background 0.3s, color 0.3s;
+}
+
+.section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.dark-mode {
+    background: #121212;
+    color: #ffffff;
+}
+
+#projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 -8px 16px rgba(0, 0, 0, 0.8),  
+            0 8px 16px rgba(0, 0, 0, 0.8);
+    width: 250px;
+    text-align: center;
+}
+
+.dark-mode .project-card {
+    background: #333;
+    color: white;
+}
